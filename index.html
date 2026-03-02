@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="description" content="EVI Systems & ICT Consultancy - Professional ICT solutions including mobile apps, web development, desktop software, data collection, network installation, and IT consultancy services." />
+  <meta name="keywords" content="ICT consultancy, mobile app development, web design, desktop applications, data collection, network installation, CCTV, IT services" />
+  <meta name="author" content="EVI Systems" />
+  <meta name="theme-color" content="#0066ff" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="EVI Systems & ICT Consultancy" />
+  <meta property="og:description" content="Delivering Practical ICT Solutions - Professional software development and IT services" />
+  <meta property="og:image" content="images/logo1.jpg" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EVI Systems & ICT Consultancy" />
+  <meta name="twitter:description" content="Delivering Practical ICT Solutions" />
+  
+  <!-- iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="images/logo1.jpg" />
+  
+  <title>EVI Systems & ICT Consultancy - Professional IT Solutions</title>
+  <link rel="icon" type="image/jpeg" href="images/logo1.jpg" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://www.w3schools.com">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-row">
+      <a class="logo" href="#home">
+        <div class="logo-text">
+          <span class="logo-title">EVI SYSTEMS</span>
+          <span class="logo-subtitle">ICT Consultancy</span>
+        </div>
+        <img src="images/logo1.jpg" alt="EVI Systems Logo" class="logo-img">
+      </a>
+      <button id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="nav" role="navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main">
+    <section id="home" class="hero" aria-label="Hero section">
+      <div class="hero-slideshow">
+        <div class="hero-slide active" style="background-image:url('images/home.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('images/home2.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('images/home3.jpg')"></div>
+        <div class="hero-slide" style="background-image:url('images/Secure, discreet support for your business — Sydney-based reliability.jpg')"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <h1>Delivering Practical ICT Solutions</h1>
+        <p class="lead">Management • Surveys & Data Collection • Software & Hardware • Network installation • CCTV camera installation</p>
+        <p class="cta"><a class="btn" href="#projects">View Projects</a> <a class="btn ghost" href="#contact">Contact</a></p>
+      </div>
+    </section>
+
+    <section id="services" class="container services-section" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <p class="section-subtitle">Comprehensive ICT solutions tailored to your business needs</p>
+
+      <div class="services-grid-modern">
+        <div class="service-card" data-service="mobile">
+          <div class="service-icon">📱</div>
+          <h3>Mobile Application Development</h3>
+          <p>Native and cross-platform mobile apps for iOS and Android with seamless user experiences</p>
+          <ul class="service-features">
+            <li>iOS & Android Development</li>
+            <li>React Native & Flutter</li>
+            <li>UI/UX Design</li>
+            <li>App Store Deployment</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-service="web">
+          <div class="service-icon">🌐</div>
+          <h3>Web Development & Design</h3>
+          <p>Modern, responsive websites and web applications built with cutting-edge technologies</p>
+          <ul class="service-features">
+            <li>Responsive Web Design</li>
+            <li>E-commerce Solutions</li>
+            <li>CMS Integration</li>
+            <li>SEO Optimization</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-service="desktop">
+          <div class="service-icon">💻</div>
+          <h3>Desktop Application Development</h3>
+          <p>Powerful desktop applications for Windows, macOS, and Linux platforms</p>
+          <ul class="service-features">
+            <li>Cross-platform Solutions</li>
+            <li>Enterprise Software</li>
+            <li>Database Integration</li>
+            <li>Custom Automation Tools</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-service="data-collection">
+          <div class="service-icon">📊</div>
+          <h3>Data Collection & Survey Setups</h3>
+          <p>Professional survey design and data collection using industry-standard tools</p>
+          <ul class="service-features">
+            <li>KoboToolbox & ODK</li>
+            <li>Google Forms & Excel</li>
+            <li>Survey Design & Testing</li>
+            <li>SPSS Data Export</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-service="data-mgmt">
+          <div class="service-icon">🗄️</div>
+          <h3>Data Management</h3>
+          <p>Secure data storage, backup solutions, and comprehensive information management systems</p>
+          <ul class="service-features">
+            <li>Database Design & Setup</li>
+            <li>Cloud Storage Solutions</li>
+            <li>Backup & Recovery</li>
+            <li>Data Analytics</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-service="network">
+          <div class="service-icon">🔌</div>
+          <h3>Networks & Cabling Installation</h3>
+          <p>Professional network infrastructure design, installation, and maintenance services</p>
+          <ul class="service-features">
+            <li>Network Design & Setup</li>
+            <li>Structured Cabling</li>
+            <li>Wi-Fi Configuration</li>
+            <li>CCTV Installation</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-service="consultancy">
+          <div class="service-icon">💡</div>
+          <h3>ICT Consultancy</h3>
+          <p>Expert guidance on technology strategy, digital transformation, and IT infrastructure</p>
+          <ul class="service-features">
+            <li>IT Strategy Planning</li>
+            <li>Technology Assessment</li>
+            <li>Digital Transformation</li>
+            <li>Security Audits</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading">Our Projects</h2>
+        <p class="section-subtitle">Click any project to view details</p>
+      </div>
+
+      <div class="projects-fullwidth">
+        <button class="carousel-btn prev" aria-label="Previous project">‹</button>
+        <div class="projects-track">
+          <div class="project-slide" data-project="0">
+            <img src="images/mobile application.jpg" alt="Mobile Application">
+            <div class="project-info">
+              <span class="project-category">Mobile App</span>
+              <h3>Mobile Application Development</h3>
+              <p>Cross-platform mobile solutions</p>
+            </div>
+          </div>
+          <div class="project-slide" data-project="1">
+            <img src="images/web designing.jpg" alt="Web Development">
+            <div class="project-info">
+              <span class="project-category">Web Development</span>
+              <h3>Web Development & Design</h3>
+              <p>Modern responsive websites</p>
+            </div>
+          </div>
+          <div class="project-slide" data-project="2">
+            <img src="images/desktop app.jpg" alt="Desktop Application">
+            <div class="project-info">
+              <span class="project-category">Desktop Application</span>
+              <h3>Desktop Application Development</h3>
+              <p>Custom desktop software solutions</p>
+            </div>
+          </div>
+          <div class="project-slide" data-project="3">
+            <img src="images/data collectio.jpg" alt="Data Collection">
+            <div class="project-info">
+              <span class="project-category">Data Management</span>
+              <h3>Data Collection & Survey Platform</h3>
+              <p>Comprehensive data collection system</p>
+            </div>
+          </div>
+          <div class="project-slide" data-project="4">
+            <img src="images/networks.jpg" alt="Network Infrastructure">
+            <div class="project-info">
+              <span class="project-category">Network Infrastructure</span>
+              <h3>Network & Cabling Installation</h3>
+              <p>Enterprise-grade network setup</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next project">›</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </section>
+
+    <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <div class="modal-body">
+          <div class="modal-gallery">
+            <div class="modal-main-image">
+              <img src="" alt="" class="active">
+              <video src="https://www.w3schools.com/html/mov_bbb.mp4" muted loop></video>
+            </div>
+            <div class="modal-thumbs"></div>
+          </div>
+          <div class="modal-info">
+            <span class="project-category"></span>
+            <h2 id="modal-title"></h2>
+            <p class="project-description"></p>
+            <div class="project-tags"></div>
+            <div class="project-details">
+              <h4>Project Details</h4>
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="partners" class="partners-section" aria-labelledby="partners-heading">
+      <div class="container">
+        <h2 id="partners-heading">Our Partners</h2>
+        <p class="section-subtitle">Trusted technology partners and collaborators</p>
+      </div>
+
+      <div class="partners-scroll">
+        <div class="partners-track">
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/></svg>
+            </div>
+            <p class="partner-name">Microsoft</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.84-.41 1.684-.287 2.489.845 5.331 6.608 6.499 10.567 6.499 1.425 0 2.749-.368 3.863-.955 3.746-1.964 4.842-6.036 3.147-9.196-1.319-2.463-3.577-4.47-4.821-5.786C16.3 5.443 15.865 4.75 15.865 4c0-1.812.567-2.977 1.211-3.699-.814-.104-1.577-.301-2.572-.301z"/></svg>
+            </div>
+            <p class="partner-name">Linux</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.4c5.302 0 9.6 4.298 9.6 9.6s-4.298 9.6-9.6 9.6-9.6-4.298-9.6-9.6S6.698 2.4 12 2.4zm-1.2 4.8v9.6h2.4V7.2h-2.4z"/></svg>
+            </div>
+            <p class="partner-name">KoboToolbox</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.935v2.131l-8.17 1.968v-2.063l5.42-1.292-5.42-1.292V8.323L24 10.935zm-16.17 1.968l-5.42-1.292 5.42-1.292V8.323L0 10.935v2.131l7.83 1.968v-2.063z"/></svg>
+            </div>
+            <p class="partner-name">Microsoft 365</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg>
+            </div>
+            <p class="partner-name">Python</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.372 0L0 3.372v17.256L3.372 24h17.256L24 20.628V3.372L20.628 0H3.372zm9.689 2.461c.607 0 1.199.033 1.777.098 1.729.195 2.043.602 2.043 1.352v.992H11.06v.496h5.821c1.186 0 2.043.602 2.043 1.777v3.471c0 1.186-.857 2.043-2.043 2.043h-3.471c-1.186 0-2.043.857-2.043 2.043v3.471c0 1.186.857 2.043 2.043 2.043h3.471c1.186 0 2.043-.857 2.043-2.043v-.992H13.103v-.496h5.821c1.186 0 2.043-.602 2.043-1.777v-3.471c0-1.186-.857-2.043-2.043-2.043h-3.471c-1.186 0-2.043-.857-2.043-2.043V4.91c0-1.186.857-2.043 2.043-2.043h3.471z"/></svg>
+            </div>
+            <p class="partner-name">W3Schools</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.946 11.446l11.108-6.411v12.822l-11.108-6.411zm22.108 0L12.946 5.035v12.822l10.108-6.411z"/></svg>
+            </div>
+            <p class="partner-name">Amazon</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/></svg>
+            </div>
+            <p class="partner-name">VS Code</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.4c5.302 0 9.6 4.298 9.6 9.6s-4.298 9.6-9.6 9.6-9.6-4.298-9.6-9.6S6.698 2.4 12 2.4zm-1.2 4.8v9.6h2.4V7.2h-2.4z"/></svg>
+            </div>
+            <p class="partner-name">Top Tech Electronics</p>
+          </div>
+
+          <div class="partner-card">
+            <div class="partner-logo">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 2.18l8 4v8.82c0 4.52-3.13 8.75-8 9.82-4.87-1.07-8-5.3-8-9.82V8.18l8-4z"/></svg>
+            </div>
+            <p class="partner-name">Emicron</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get In Touch</h2>
+      <p class="section-subtitle">We'd love to hear from you. Reach out through any of these channels.</p>
+      
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <a href="mailto:evisystemsict@gmail.com">evisystemsict@gmail.com</a>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">📱</div>
+          <h3>Phone</h3>
+          <a href="tel:+265999145104">+265 999 145 104</a>
+        </div>
+        
+        <div class="contact-card">
+          <div class="contact-icon">💬</div>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/265999145104" target="_blank" rel="noopener noreferrer">Chat with us</a>
+        </div>
+      </div>
+      
+      <div class="contact-social">
+        <p>Follow us on social media</p>
+        <div class="social-links-large">
+          <a href="https://facebook.com/evisystems" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.02 5.66 21.13 10.44 21.95v-6.93H8.08v-2.99h2.36V9.41c0-2.33 1.39-3.62 3.52-3.62 1.02 0 2.09.18 2.09.18v2.3h-1.18c-1.16 0-1.52.72-1.52 1.46v1.75h2.59l-.41 2.99h-2.18V21.95C18.34 21.13 22 17.02 22 12.07z"/></svg>
+          </a>
+          <a href="https://twitter.com/evisystems" target="_blank" rel="noopener noreferrer" aria-label="Twitter" title="Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://linkedin.com/company/evisystems" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.6 4.07 5.5 2.98 5.5 1.88 5.5.98 4.6.98 3.5.98 2.4 1.88 1.5 2.98 1.5c1.09 0 2 .9 2 .9zM.98 8.5h3.99v12H.98v-12zM8.98 8.5h3.83v1.64h.06c.53-1 1.82-2.06 3.76-2.06 4.02 0 4.76 2.65 4.76 6.09v6.33h-3.99v-5.6c0-1.34-.03-3.06-1.86-3.06-1.86 0-2.15 1.45-2.15 2.96v5.7H8.98v-12z"/></svg>
+          </a>
+          <a href="https://instagram.com/evisystems" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+          </a>
+          <a href="https://wa.me/265999145104" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>EVI Systems</h3>
+        <p>Professional ICT solutions for your business needs</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <a href="mailto:evisystemsict@gmail.com">evisystemsict@gmail.com</a>
+        <a href="tel:+265999145104">+265 999 145 104</a>
+        <a href="https://wa.me/265999145104" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+      
+      <div class="footer-social-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a class="social-link" href="https://facebook.com/evisystems" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.02 5.66 21.13 10.44 21.95v-6.93H8.08v-2.99h2.36V9.41c0-2.33 1.39-3.62 3.52-3.62 1.02 0 2.09.18 2.09.18v2.3h-1.18c-1.16 0-1.52.72-1.52 1.46v1.75h2.59l-.41 2.99h-2.18V21.95C18.34 21.13 22 17.02 22 12.07z"/></svg>
+          </a>
+          <a class="social-link" href="https://twitter.com/evisystems" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a class="social-link" href="https://linkedin.com/company/evisystems" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.6 4.07 5.5 2.98 5.5 1.88 5.5.98 4.6.98 3.5.98 2.4 1.88 1.5 2.98 1.5c1.09 0 2 .9 2 .9zM.98 8.5h3.99v12H.98v-12zM8.98 8.5h3.83v1.64h.06c.53-1 1.82-2.06 3.76-2.06 4.02 0 4.76 2.65 4.76 6.09v6.33h-3.99v-5.6c0-1.34-.03-3.06-1.86-3.06-1.86 0-2.15 1.45-2.15 2.96v5.7H8.98v-12z"/></svg>
+          </a>
+          <a class="social-link" href="https://instagram.com/evisystems" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+          </a>
+          <a class="social-link" href="https://wa.me/265999145104" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <small>© 2025 EVI Systems & ICT Consultancy. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
